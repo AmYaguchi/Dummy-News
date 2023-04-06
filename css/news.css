@@ -73,18 +73,47 @@ background-color: black;
 }
 .hero {
     display: grid;
+    justify-content: space-evenly;
     grid-template-columns: repeat(2 auto);
     grid-template-areas: 
           "left right"
           "laft right";  
+    gap: 18px;      
 }
 .head{
     
     border-radius: .8em;
     padding: 40px;
     align-items: end;
+    height: 40vh;
+   
+}
+.head h2{
+    font-family: sans-serif;
+    color: wheat;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.head p{
+    font-family: sans-serif;
+    color: wheat;
+    font-weight: 400;
+}
+.head ul li{
+    font-family: sans-serif;
+    color: wheat;
+    font-weight: 400;
 }
 .head3{
     grid-area: right;  
-    background-image: url();
+    background-image: url(../images/Back2.jpeg);
+    height: 81.9vh;
+}
+.head1
+{
+   background-image: url(../images/Back1.jpg);
+}
+.head2
+{
+    background-image: url(../images/Back3.jpg);
 }
